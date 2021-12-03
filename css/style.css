@@ -1,38 +1,185 @@
 @charset "utf-8";
-html {
+html{
+    font-size: 62.5%;/* 16px × 62.5% = 10px*/
 }
 
-/* 
-
-ここはメモだよ
-複数行でも対応してますよ
-
-
-*/
-body {
+body{
+    color: #333333;
+    font-size: 1.3rem;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.site-title{
+    font-size: 2.4rem;
+    font-weight:bold;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+
+
+/* main-image */
+
+.main-image{
+    position: relative;
+}
+
+.main-image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.main-image-text1{
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 20px;
+    
+}
+
+.main-image-text2{
+    font-size: 2rem;
+    color: #fff;
+    
+}
+
+
+/*header*/
+
+.header{
+    border-bottom: sold#c2c0bc 0 1rem;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 60px;
+    
+}
+
+.header-rogo{
+    width: 200px;
+    height: auto;
+    
+}
+
+.wrapper{
+    width: 1140px;
+    
+    position: relative;
+}
+
+.nav-list{
+    display: flex;
+
+}
+
+.nav-item{
+    margin: 0 0 0 36px;
+        
+}
+
+.nav-item>a{
+    color: #333333;
+    text-transform: uppercase;
+}
+
+
+
+
+/* about */
+.about{
+    padding: 40px 0 40px;
+}
+
+
+
+.about-wrapper{
+    width: 560px;
+    margin: auto;
+    margin-bottom: 40px;
+    
 }
 
 .about-title{
-  margin-bottom: 24px;
-  color: red;
-  text-align: center;
+    color: rgb(255, 217, 0);
+}
+
+.aboutsub{
+    margin: 0 0 40px;
+}
+
+.about-text{
+    line-height: 2;
+    margin: 0 0 20px;
+    
 }
 
 
- .news-list{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;align-items: flex-start;
+/* course */
+.course{
+    padding: 20px 0 40px;
+}
 
- }
+.course-setumei{
+    font-size: 1.8rem;
+    margin: 0 0 20px;
+}
 
- .news-item{
-   min-width: 33.333%;
-   width: 33.333%;
-   flex: 0 0 33.333%;
- }
+.course-text{
+    margin: 0 0 30px;
+    line-height: 2;
+}
+
+.course-list{
+    display: flex;
+}
+
+.course-item{
+    width: 50%;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+.course-item-box{
+    
+    padding: 80px;
+    max-height: ;
+}
+
+.course-item-title{
+
+    margin: 0 0 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+}
+
+.course-item-text{
+    text-align: justify;
+    height: 100%;
+    line-height: 2em;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
